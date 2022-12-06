@@ -1,0 +1,263 @@
+@font-face {
+    src: url(CursedTimerUlil-Aznm.ttf);
+    font-family: 'Cursed Timer ULiL';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background: #D1D5DB;
+}
+
+.container {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 400px;
+    font-family: 'Cursed Timer ULiL';
+    background: #1B244A;
+    padding: 20px 50px;
+    border: 5px solid #F59E0B;
+    border-radius: 10px;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: 'High School USA Sans', sans-serif;
+}
+
+h2 {
+    border-radius: 5px;
+    width: 155px;
+    height: 120px;
+    text-align: end;
+    font-size: 100px;
+    margin: 0 auto 20px auto;
+    background: #000000;
+    color: white;
+    font-family: 'Cursed Timer Ulil';
+}
+
+.timer {
+    font-family: 'Cursed Timer Ulil';
+    font-size: 50px;
+}
+
+.resetBothScores {  
+    display: flex;
+    justify-content: center;
+    margin-top: 135px;
+}
+
+#resetScore-btn {
+    width: 150px;
+    height: 45px;
+    font-size: 20px;
+    background: #1B244A;
+    color: #9AABD8;
+    border: solid #9AABD8;
+    border-radius: 5px;
+    transition: transform 100ms;
+    margin-bottom: 0;
+}
+
+.homeSide {
+    margin-top: 40px;
+    
+}
+
+.guestSide {
+    margin-top: 40px;
+}
+
+.homeAddAndSubBtns {
+    cursor: pointer;
+}
+
+.guestAddAndSubBtns {
+    
+}
+
+#addOneHome {
+    width: 45px;
+    height: 45px;
+    background: #1B244A;
+    color: #9AABD8;
+    border: solid #9AABD8;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL';
+}
+
+#addTwoHome {
+    width: 45px;
+    height: 45px;
+    background: #1B244A;
+    color: #9AABD8;
+    border: solid #9AABD8;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL';
+}
+
+#addThreeHome {
+    width: 45px;
+    height: 45px;
+    background: #1B244A;
+    color: #9AABD8;
+    border: solid #9AABD8;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL';
+}
+
+#addOneGuest {
+    width: 45px;
+    height: 45px;
+    background: #1B244A;
+    color: #9AABD8;
+    border: solid #9AABD8;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL';
+}
+
+#addTwoGuest {
+    width: 45px;
+    height: 45px;
+    background: #1B244A;
+    color: #9AABD8;
+    border: solid #9AABD8;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL';
+}
+
+#addThreeGuest {
+    width: 45px;
+    height: 45px;
+    background: #1B244A;
+    color: #9AABD8;
+    border: solid #9AABD8;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL';
+}
+
+#resetHomeScore {
+    width: 45px;
+    height: 45px;
+    font-size: 50px;
+    background: #1B244A;
+    color: #9AABD8;
+    border: none;
+    border-radius: 10px;
+    transition: transform 100ms;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#resetHomeScore:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#resetGuestScore {
+    width: 45px;
+    height: 45px;
+    background: #1B244A;
+    color: #9AABD8;
+    border: solid #9AABD8;
+    border-radius: 5px;
+    transition: transform 100ms;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    font-size: 50px;
+}
+
+#resetGuestScore:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+#subtractHomeScore {
+    width: 45px;
+    height: 45px;
+    background: #1B244A;
+    color: #9AABD8;
+    border: solid #9AABD8;
+    border-radius: 5px;
+}
+
+#subtractHomeScore:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#subtractGuestScore {
+    width: 45px;
+    height: 45px;
+    background: #1B244A;
+    color: #9AABD8;
+    border: solid #9AABD8;
+    border-radius: 5px;
+    transition: transform 100ms;
+}
+
+#subtractGuestScore:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#resetScore-btn {
+    width: 150px;
+    height: 45px;
+    font-size: 20px;
+    background: #1B244A;
+    color: #9AABD8;
+    border: solid #9AABD8;
+    border-radius: 5px;
+    transition: transform 100ms;
+    margin-bottom: 0;
+}
+
+#resetScore-btn:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#addOneHome:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#addTwoHome:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#addThreeHome:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#addOneGuest:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#addTwoGuest:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#addThreeGuest:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
